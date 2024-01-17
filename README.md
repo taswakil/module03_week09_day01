@@ -9,7 +9,8 @@ In this Lab, you're going to be creating your first server using Node.js! Your s
 Before you begin, make sure you have the following done:
 
 - Installed [Node.js](https://nodejs.org/)
-- Made a repo for this assignment
+- Followed the link to Github Classrooms and got your repository.
+- Pulled down your repository
 
 ### Part 1: Setting Up the Project with `npm init`
 
@@ -21,8 +22,8 @@ Before you begin, make sure you have the following done:
   2. Set the version to "1.0.0".
   3. Specify a main entry point (e.g., "index.js").
   4. Include a simple "start" script in `package.json`.
-- **Submission:**
-  - Share the contents of the generated `package.json` file.
+- **Verification:**
+  - Verify that your project has a package.json
 
 ---
 
@@ -34,8 +35,8 @@ Before you begin, make sure you have the following done:
 - **Requirements:**
   1. Create a simple server script (e.g., "server.js").
   2. Configure the "start" script in `package.json` to run the server script.
-- **Submission:**
-  - Your file should include a run script for your server.
+- **Verification:**
+  - You should be able to run your script in your cmd.
 
 ---
 
@@ -48,15 +49,12 @@ Before you begin, make sure you have the following done:
   1. Create a JavaScript file (e.g., "app.js") with simple code (e.g., print a message).
   2. Use the `node` command to run the JavaScript file.
   3. Experiment with command-line arguments (if applicable).
-- **Submission:**
-  - Share the code of the JavaScript file and any observations from the execution.
+- **Verification:**
+  - Your program should perform some functionality when ran from the terminal.
 
 ## Submission
 
-For this Lab to be submitted you should have the following done:
-
- - Task One, Two and Three
- - Your server should run from the console in the main directory, and once run it should perform a simple console command.
- - Your custom information should be filled out when initialization was performed for your node app.
+For this Lab to be submitted you should submit the link to your repository.
+Verify that all Task are complete.
 
 Happy coding! 
