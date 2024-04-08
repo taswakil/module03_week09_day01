@@ -12,6 +12,10 @@ Before you begin, make sure you have the following done:
 - Followed the link to Github Classrooms and got your repository.
 - Pulled down your repository
 
+![](NodeMediaPreview2.png)
+
+![](NodeMediaPreview1.png)
+
 ### Part 1: Setting Up the Project with `npm init`
 
 #### Assignment:
