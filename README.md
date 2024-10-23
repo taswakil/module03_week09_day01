@@ -1,64 +1,46 @@
-# Run a JS file with Node
+# Node.js Beginner Assignment: Basic Input and Output
 
-## Your First Server
+## Assignment: Create a Simple Node.js Application
 
-In this Lab, you're going to be creating your first server using Node.js! Your server will be the starting point for building powerful web applications.
+In this assignment, you will create a simple Node.js application that accepts input from the user and displays a response in the console. This project introduces the basics of Node.js, including working with JavaScript in a server environment and using `process` for input/output.
 
-### Prerequisites
+![image](./Example/Part2.gif)
+### Part 1: Create the javscript file
 
-Before you begin, make sure you have the following done:
+1. Create a new file called `main.js` in this folder
 
-- Installed [Node.js](https://nodejs.org/)
-- Followed the link to Github Classrooms and got your repository.
-- Pulled down your repository
+2. Copy this code into `main.js`:
+   -  ```javascript
+      // Operations: Object Access, Invocation
+      console.log("What's your name?");
 
-![](NodeMediaPreview2.png)
+      // Operations:
+      process.stdin.on('data', function(data) {
 
-![](NodeMediaPreview1.png)
+          // Operations:
+          const name = data.toString().trim();
+          
+          // Operations:
+          console.log(`Hello, ${name}!`);
 
-### Part 1: Setting Up the Project with `npm init`
+      });
+      ```
 
-#### Assignment:
 
-- **Task:** Create a new Node.js project using `npm init`.
-- **Requirements:**
-  1. Provide a unique project name.
-  2. Set the version to "1.0.0".
-  3. Specify a main entry point (e.g., "index.js").
-  4. Include a simple "start" script in `package.json`.
-- **Verification:**
-  - Verify that your project has a package.json
+### Part 2: Use Node to run the javascript file
 
----
+1. In your terminal, navigate to the project directory.
+2. Run your application using Node.js:
+    ```bash
+    node main.js
+    ```
 
-### Part 2: Understanding the `package.json` on a Server
-
-#### Assignment:
-
-- **Task:** Modify the project from Part 1 to include a server script.
-- **Requirements:**
-  1. Create a simple server script (e.g., "server.js").
-  2. Configure the "start" script in `package.json` to run the server script.
-- **Verification:**
-  - You should be able to run your script in your cmd.
+3. Test your application by typing in a name when prompted and checking if the greeting message is displayed correctly.
 
 ---
 
-### Part 3: Running a JS File with Node
+### Part 3: Add a comment above each line that states the operations performed
+![image](./Example/image.png)
 
-#### Assignment:
 
-- **Task:** Create a new JavaScript file and run it using Node.js.
-- **Requirements:**
-  1. Create a JavaScript file (e.g., "app.js") with simple code (e.g., print a message).
-  2. Use the `node` command to run the JavaScript file.
-  3. Experiment with command-line arguments (if applicable).
-- **Verification:**
-  - Your program should perform some functionality when ran from the terminal.
 
-## Submission
-
-For this Lab to be submitted you should submit the link to your repository.
-Verify that all Task are complete.
-
-Happy coding! 
