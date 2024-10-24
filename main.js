@@ -7,7 +7,7 @@ process.stdin.on('data', function(data) {
     // Operations: Assignment, Object Access, Invocation, Object Access, Invocation
     const name = data.toString().trim();
     
-    // Operations: Object Access, Invocation
+    // Operations: Object Access, Invocation, Addition
     console.log(`Hello, ${name}!`);
 
 });
