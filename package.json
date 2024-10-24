@@ -1,0 +1,15 @@
+{
+  "name": "waffles",
+  "version": "1.0.0",
+  "description": "main.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "MODULE03_WEEK09_DAY01"
+  },
+  "author": "Tasneem",
+  "license": "ISC"
+}
